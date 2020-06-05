@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Philosopher:wght@700&family=Poppins:wght@900&family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --brand-font: "Philosopher", sans-serif;
+    --text-font: "Roboto", sans-serif;
+    --heading-font: "Baloo 2", cursive;
+    --cover-heading-font: "Josefin Sans", sans-serif;
+    --cover-heading-font-2: "Montserrat", sans-serif;
+}
+
+body {
+    font-family: var(--text-font);
+    color: white;
+}
+
+.section-heading {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-weight: 800;
+}
+
+.section-heading::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 60%;
+    background-color: var(--button-color);
+
+    left: calc(50% - 30%);
+    bottom: -10px;
+}
