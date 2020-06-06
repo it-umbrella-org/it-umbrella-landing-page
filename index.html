@@ -274,12 +274,13 @@
                         <h1>Send a Message</h1>
                     </div>
                     <form action="" data-netlify="true">
-                        <input type="text" placeholder="Name" name="Name" />
-                        <input type="email" placeholder="Email" name="Email" />
+                        <input type="text" placeholder="Name" name="Name" required>
+                        <input type="email" placeholder="Email" name="Email" required/>
                         <input
                             type="text"
                             placeholder="Subject"
                             name="Subject"
+                            required
                         />
 
                         <textarea
@@ -287,6 +288,7 @@
                             id=""
                             placeholder="Message"
                             name="Message"
+                            required
                         ></textarea>
                         <input type="submit" value="Send" id="sndbtn" />
                     </form>
