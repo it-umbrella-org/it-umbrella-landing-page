@@ -200,6 +200,18 @@ form input[type="submit"] {
     padding: 30px;
 }
 
+
+
+@media (max-width:1024px){
+
+    .main-right .main-right-content p{
+
+        padding: 10px;
+    font-size: 18px;
+    }
+
+}
+
 @media (max-width: 768px) {
     .main {
         height: 1200px;
@@ -223,6 +235,8 @@ form input[type="submit"] {
 
     .social-links {
         margin-top: 950px;
+        /**/
+        margin-left: -24px;
     }
     .social-links-twitter {
         margin-left: 2px;
@@ -235,10 +249,77 @@ form input[type="submit"] {
     .social-links-linkedin {
       /*  margin-left: 76px;*/
 
-      margin-left: -73px;
+      margin-left: -16px;
     }
 
     .main-right-content h1{
+        margin-left: 25px;
+        margin-top: 63px;
+    }
+}
+
+
+
+
+@media(max-width:360px){
+    .main-right-content h1 {
+        margin-left: -9px;
+        margin-top: 63px;
+    }
+
+    .social-links {
+        margin-top: 998px;
+        margin-left: -24px;
+    }
+
+    .social-links-twitter {
+        margin-left: -1px;
+    }
+
+    .social-links-facebook {
+        margin-left: -14px;
+    }
+
+
+    .social-links-instagram{
         margin-left: -35px;
     }
+
+    .social-links-linkedin {
+      /*  margin-left: 76px;*/
+
+      margin-left: -26px;
+    }
+}
+
+
+@media(max-width:320px){
+
+    .social-links {
+        margin-top: 964px;
+        /**/
+        margin-left: -21px;
+    }
+    .social-links-twitter {
+        margin-left: -1px;
+    }
+
+    .social-links-facebook {
+        margin-left: -33px;
+    }
+
+    .social-links-instagram{
+        margin-left: -34px;
+    }
+
+    .social-links-linkedin {
+      /*  margin-left: 76px;*/
+
+      margin-left: -33px;
+    }
+
+
+
+
+
 }
