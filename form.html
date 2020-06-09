@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="./CSS/form.css" />
+        <title>Choose Template</title>
+
+        <script async defer src="./JS/form.js"></script>
+    </head>
+    <body>
+        <a href="./index.html" id="go-back-button">Go Back</a>
+        <br />
+        <section>
+            <div class="mainclass">
+                <form class="formstyling" data-netlify="true">
+                    <div class="upperpart">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1"
+                                >Enter Name</label
+                            >
+                            <input
+                                type="text"
+                                class="form-control col-sm-4"
+                                id="exampleFormControlInput1"
+                                placeholder="Your Name"
+                                name="Name"
+                                required
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"
+                                >Email address</label
+                            >
+                            <input
+                                type="email"
+                                class="form-control col-sm-4"
+                                id="exampleInputEmail1"
+                                aria-describedby="emailHelp"
+                                name="Email"
+                                placeholder="Enter email"
+                                required
+                            />
+                            <small id="emailHelp" class="form-text text-muted"
+                                >We'll never share your email with anyone
+                                else.</small
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlFile1"
+                                >Upload Your Resume</label
+                            >
+                            <input
+                                type="file"
+                                class="form-control-file"
+                                id="exampleFormControlFile1"
+                                name="resume"
+                                accept=".doc, .docx,.ppt, .pptx,.txt,.pdf"
+                                required
+                            />
+                        </div>
+
+                        <br />
+                        <label>Which theme do you prefer ? </label><br />
+                        <button
+                            onclick="toggleLight()"
+                            type="button"
+                            class="btn btn-light btn-lg btnlight"
+                            style="margin: 25px;"
+                        >
+                            Light
+                        </button>
+                        <button
+                            onclick="toggleDark()"
+                            type="button"
+                            class="btn btn-dark btn-lg btndark"
+                            style="margin: 25px;"
+                        >
+                            Dark
+                        </button>
+
+                        <br /><br />
+
+                        <label
+                            >All sections are divided on the basis of alignment
+                            (left , center , right). </label
+                        ><br />
+                    </div>
+                    <!--End of Upper Part-->
+
+                    <br /><br />
+                    <!--Starting of Light Template-->
+
+                    <div id="light-options" class="light_theme hide">
+                        <br /><br />
+                        <!--Header Section-->
+                        <label>1. Header Section </label><br /><br />
+                        <div class="form-check form-check-inline">
+                            <br /><br /><br />
+                            <input
+                                class="form-check-input required-light"
+                                type="radio"
+                                name="Header_section_light"
+                                id="exampleRadios1"
+                                value="Header_section_light1"
+                                required
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="header"
+                                    src="Assets\Images\template_design2\Header\header1light.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <br /><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Header_section_light"
+                                id="exampleRadios2"
+                                value="Header_section_light2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="header"
+                                    src="Assets\Images\template_design2\Header\header2light.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br /><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Header_section_light"
+                                id="exampleRadios2"
+                                value="Header_section_light3"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="header"
+                                    src="Assets\Images\template_design2\Header\header3light.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <!--Button Section-->
+
+                        <br /><br /><br />
+                        <label> 2. Buttons Style </label><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input required-light"
+                                type="radio"
+                                name="Button_section_light"
+                                id="exampleRadios1"
+                                value="Button_section_light1"
+                                required
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="button"
+                                    src="Assets\Images\template_design2\Button\buttonlight1.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Button_section_light"
+                                id="exampleRadios2"
+                                value="Button_section_light2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="button"
+                                    src="Assets\Images\template_design2\Button\buttonlight2.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <!--Hero Section-->
+                        <br /><br />
+                        <label>3. Hero Section </label><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input required-light"
+                            type="radio" name="hero_section_light
+                            id="exampleRadios1" value="herosection_light1"
+                            required>
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="hero"
+                                    src="Assets\Images\template_design2\Hero\HERO_light1.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="hero_section_light"
+                                id="exampleRadios2"
+                                value="herosection_light2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="hero"
+                                    src="Assets\Images\template_design2\Hero\HERO_light2.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="hero_section_light"
+                                id="exampleRadios2"
+                                value="herosection_light3"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="hero"
+                                    src="Assets\Images\template_design2\Hero\HERO_light3.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <!--Skill section-->
+                        <br /><br />
+                        <label>4. Skill Section </label><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input required-light"
+                                type="radio"
+                                name="Skill_section_light"
+                                id="exampleRadios1"
+                                value="Skill_section_light1"
+                                required
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="testimonial"
+                                    src="Assets\Images\template_design2\Skill\SKILL_light1.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Skill_section_light"
+                                id="exampleRadios2"
+                                value="Skill_section_light2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="testimonial"
+                                    src="Assets\Images\template_design2\Skill\SKILL_light2.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <!--Project Section-->
+
+                        <br /><br />
+                        <label>5. Project Section </label><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input required-light"
+                                type="radio"
+                                name="Project_section_light"
+                                id="exampleRadios1"
+                                value="Project_section_light1"
+                                required
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="project"
+                                    src="Assets\Images\template_design2\Project\PROJECT_light1.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Project_section_light"
+                                id="exampleRadios2"
+                                value="Project_section_light2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="project"
+                                    src="Assets\Images\template_design2\Project\PROJECT_light2.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <!--Refernces section-->
+                        <br /><br />
+                        <label>6. References Section </label><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input required-light"
+                                type="radio"
+                                name="Reference_section_light"
+                                id="exampleRadios1"
+                                value="Reference_section_light1"
+                                required
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="testimonial"
+                                    src="Assets\Images\template_design2\Testimonial\Testimonial1light.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Reference_section_light"
+                                id="exampleRadios2"
+                                value="Reference_section_light2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="testimonial"
+                                    src="Assets\Images\template_design2\Testimonial\Testimonial2light.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Reference_section_light"
+                                id="exampleRadios2"
+                                value="Reference_section_light3"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="testimonial"
+                                    src="Assets\Images\template_design2\Testimonial\Testimonial3light.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <!--Contact Section-->
+
+                        <br /><br />
+                        <label>7. Contact Section </label><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input required-light"
+                                type="radio"
+                                name="Contact_section_light"
+                                id="exampleRadios1"
+                                value="Contact_section_Light1"
+                                required
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="contact"
+                                    src="Assets\Images\template_design2\Contact\contact1light.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br /><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Contact_section_light"
+                                id="exampleRadios2"
+                                value="Contact_section_Light2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="contact"
+                                    src="Assets\Images\template_design2\Contact\contact2light.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br /><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Contact_section_light"
+                                id="exampleRadios2"
+                                value="Contat_section_Light3"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="contact"
+                                    src="Assets\Images\template_design2\Contact\contact3light.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <!--Footer Section-->
+
+                        <br /><br />
+                        <label> 8. Footer Section </label><br /><br />
+                        <div class="form-check form-check-inline">
+                            <br /><br /><br />
+                            <input
+                                class="form-check-input required-light"
+                                type="radio"
+                                name="Footer_section_Light"
+                                id="exampleRadios1"
+                                value="Footer_section_Light1"
+                                required
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="footer"
+                                    src="Assets\Images\template_design2\Footer\Footer1light.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Footer_section_Light"
+                                id="exampleRadios2"
+                                value="Footer_section_Light2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="footer"
+                                    src="Assets\Images\template_design2\Footer\Footer2light.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Footer_section_Light"
+                                id="exampleRadios2"
+                                value="Footer_section_Light3"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="footer"
+                                    src="Assets\Images\template_design2\Footer\Footer3light.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <br /><br />
+
+                        <button
+                            class="btn btn-primary btn-lg"
+                            style="align: center;"
+                            type="submit"
+                        >
+                            Submit form
+                        </button>
+                    </div>
+
+                    <!--End of light template -->
+
+                    <!--Starting of Dark theme-->
+                    <div id="dark-options" class="dark_theme hide">
+                        <!--Header Dark Section-->
+                        <br /><br /><br /><br />
+                        <label>1. Header Section </label><br /><br />
+                        <div class="form-check form-check-inline">
+                            <br /><br /><br />
+                            <input
+                                class="form-check-input required-dark"
+                                type="radio"
+                                name="Header_section_dark"
+                                id="exampleRadios1"
+                                value="Header_section_dark1"
+                                required
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="header"
+                                    src="Assets\Images\template_design2\Header\header1dark.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <br /><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Header_section_dark"
+                                id="exampleRadios2"
+                                value="Header_section_dark2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="header"
+                                    src="Assets\Images\template_design2\Header\header2dark.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br /><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Header_section_dark"
+                                id="exampleRadios2"
+                                value="Header_section_dark3"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="header"
+                                    src="Assets\Images\template_design2\Header\header3dark.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <!--Button Dark Section-->
+
+                        <br /><br /><br />
+                        <label> 2. Buttons Style </label><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input required-dark"
+                                type="radio"
+                                name="Button_section_dark"
+                                id="exampleRadios1"
+                                value="Button_section_dark1"
+                                required
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="button"
+                                    src="Assets\Images\template_design2\Button\buttondark1.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Button_section_dark"
+                                id="exampleRadios2"
+                                value="Button_section_dark2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="button"
+                                    src="Assets\Images\template_design2\Button\buttondark2.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br />
+
+                        <!--Hero Dark Section-->
+                        <br /><br />
+                        <label>3. Hero Section </label><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input required-dark"
+                            type="radio" name="hero_section_dark
+                            id="exampleRadios1" value="herosection_dark1"
+                            required>
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="hero"
+                                    src="Assets\Images\template_design2\Hero\HERO1DARK.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="hero_section_dark"
+                                id="exampleRadios2"
+                                value="herosection_dark2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="hero"
+                                    src="Assets\Images\template_design2\Hero\HERO2DARK.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br /><br />
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="hero_section_dark"
+                                id="exampleRadios2"
+                                value="herosection_dark3"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="hero"
+                                    src="Assets\Images\template_design2\Hero\HERO3DARK.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <!--Skill Dark  section-->
+                        <br /><br />
+                        <label>4. Skill Section </label><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input required-dark"
+                                type="radio"
+                                name="Skill_section_dark"
+                                id="exampleRadios1"
+                                value="Skill_section_dark1"
+                                required
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="testimonial"
+                                    src="Assets\Images\template_design2\Skill\SKILL1DARK.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Skill_section_dark"
+                                id="exampleRadios2"
+                                value="Skill_section_dark2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="testimonial"
+                                    src="Assets\Images\template_design2\Skill\SKILL2DARK.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <!--Project Dark Section-->
+
+                        <br /><br />
+                        <label>5. Project Section </label><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input required-dark"
+                                type="radio"
+                                name="Project_section_dark"
+                                id="exampleRadios1"
+                                value="Project_section_dark1"
+                                required
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="project"
+                                    src="Assets\Images\template_design2\Project\PROJECT1DARK.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Project_section_dark"
+                                id="exampleRadios2"
+                                value="Project_section_dark2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="project"
+                                    src="Assets\Images\template_design2\Project\PROJECT2DARK.png"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <!--Refernces  Dark section-->
+                        <br /><br />
+                        <label>6. References Section </label><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input required-dark"
+                                type="radio"
+                                name="Reference_section_dark"
+                                id="exampleRadios1"
+                                value="Reference_section_dark1"
+                                required
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="testimonial"
+                                    src="Assets\Images\template_design2\Testimonial\Testimonial1dark.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Reference_section_dark"
+                                id="exampleRadios2"
+                                value="Reference_section_dark2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="testimonial"
+                                    src="Assets\Images\template_design2\Testimonial\Testimonial2dark.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Reference_section_dark"
+                                id="exampleRadios2"
+                                value="Reference_section_dark3"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="testimonial"
+                                    src="Assets\Images\template_design2\Testimonial\Testimonial3dark.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <!--Contact Dark Section-->
+
+                        <br /><br />
+                        <label>7. Contact Section </label><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input required-dark"
+                                type="radio"
+                                name="Contact_section_dark"
+                                id="exampleRadios1"
+                                value="Contact_section_dark1"
+                                required
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="contact"
+                                    src="Assets\Images\template_design2\Contact\contact1dark.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br /><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Contact_section_dark"
+                                id="exampleRadios2"
+                                value="Contact_section_dark2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="contact"
+                                    src="Assets\Images\template_design2\Contact\contact2dark.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br /><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Contact_section_dark"
+                                id="exampleRadios2"
+                                value="Contat_section_dark3"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="contact"
+                                    src="Assets\Images\template_design2\Contact\contact3dark.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <!--Footer Dark Section-->
+
+                        <br /><br />
+                        <label> 8. Footer Section </label><br /><br /><br />
+                        <div class="form-check form-check-inline">
+                            <br /><br /><br />
+                            <input
+                                class="form-check-input required-dark"
+                                type="radio"
+                                name="Footer_section_dark"
+                                id="exampleRadios1"
+                                value="Footer_section_dark1"
+                                required
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios1"
+                            >
+                                <img
+                                    class="footer"
+                                    src="Assets\Images\template_design2\Footer\Footer1dark.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <br /><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Footer_section_dark"
+                                id="exampleRadios2"
+                                value="Footer_section_dark2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="footer"
+                                    src="Assets\Images\template_design2\Footer\Footer2dark.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+                        <br /><br /><br />
+                        <div class="form-check form-check-inline">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="Footer_section_dark"
+                                id="exampleRadios2"
+                                value="Footer_section_dark3"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="exampleRadios2"
+                            >
+                                <img
+                                    class="footer"
+                                    src="Assets\Images\template_design2\Footer\Footer3dark.PNG"
+                                    alt=""
+                                />
+                            </label>
+                        </div>
+
+                        <br /><br />
+                        <button
+                            class="btn btn-primary btn-lg"
+                            style="align: center;"
+                            type="submit"
+                        >
+                            Submit form
+                        </button>
+                    </div>
+                    <!--End of dark tamplate-->
+                </form>
+                <!--End of Form-->
+            </div>
+            <!--End of main class div-->
+        </section>
+    </body>
+</html>

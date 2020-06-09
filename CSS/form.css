@@ -1,0 +1,306 @@
+body {
+    background-color: rgb(151, 96, 198);
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+html {
+    font-size: 1.5rem;
+}
+
+#go-back-button {
+    float: left;
+    background-color: var(--button-color);
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 4px;
+    transition: all 0.5s;
+    text-align: center;
+
+    width: 10rem;
+}
+
+#go-back-button:hover {
+    transform: translateY(-4px);
+}
+
+.mainclass {
+    margin-top: 200px;
+    /*height: 16200px;*/
+    width: 65%;
+    margin: 10% auto;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px white;
+}
+.light_theme {
+    height: auto;
+}
+.dark_theme {
+    height: auto;
+}
+
+.formstyling {
+    margin-top: 10px;
+
+    padding: 40px;
+}
+.hero {
+    width: 800px;
+}
+.project {
+    width: 800px;
+}
+.team {
+    width: 800px;
+}
+.testimonial {
+    width: 800px;
+    height: 400px;
+}
+.contact {
+    width: 800px;
+}
+.header {
+    width: 800px;
+    height: 75px;
+}
+.footer {
+    width: 800px;
+    height: 200px;
+}
+.button {
+    width: 130px;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .mainclass {
+        margin-top: 200px;
+        /* height: 8550px; */
+        width: 85%;
+        margin: 10% auto;
+        background-color: white;
+        border-radius: 15px;
+        border: 1px solid white;
+        box-shadow: 0 0 5px white;
+    }
+
+    .hero {
+        width: 100%;
+    }
+    .project {
+        width: 100%;
+    }
+    .team {
+        width: 100%;
+    }
+    .testimonial {
+        width: 100%;
+    }
+    .contact {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+        height: 75px;
+    }
+    .footer {
+        width: 100%;
+        height: 200px;
+    }
+    .button {
+        width: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainclass {
+        margin-top: 200px;
+        /* height: 6600px; */
+        width: 85%;
+        margin: 14% auto;
+        background-color: white;
+        border-radius: 15px;
+        border: 1px solid white;
+        box-shadow: 0 0 5px white;
+    }
+
+    .hero {
+        width: 275px;
+    }
+    .project {
+        width: 275px;
+    }
+    .team {
+        width: 275px;
+    }
+    .testimonial {
+        width: 100%;
+    }
+    .contact {
+        width: 275px;
+    }
+    .header {
+        width: 275px;
+        height: 75px;
+    }
+    .footer {
+        width: 100%;
+        height: 200px;
+    }
+    .button {
+        width: 90px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainclass {
+        margin-top: 200px;
+        /* height: 6900px; */
+        width: 85%;
+        margin: 18% auto;
+        background-color: white;
+        border-radius: 15px;
+        border: 1px solid white;
+        box-shadow: 0 0 5px white;
+    }
+
+    .hero {
+        width: 275px;
+    }
+    .project {
+        width: 275px;
+    }
+    .team {
+        width: 275px;
+    }
+    .testimonial {
+        width: 100%;
+    }
+    .contact {
+        width: 275px;
+    }
+    .header {
+        width: 275px;
+        height: 75px;
+    }
+    .footer {
+        width: 100%;
+        height: 200px;
+    }
+    .button {
+        width: 90px;
+    }
+}
+
+@media (max-width: 425px) {
+    .mainclass {
+        margin-top: 200px;
+        /* height: 7138px; */
+        width: 85%;
+        margin: 20% auto;
+        background-color: white;
+        border-radius: 15px;
+        border: 1px solid white;
+        box-shadow: 0 0 5px white;
+    }
+
+    @media (max-width: 375px) {
+        .mainclass {
+            margin-top: 200px;
+            /* height: 7200px; */
+            width: 85%;
+            margin: 22% auto;
+            background-color: white;
+            border-radius: 15px;
+            border: 1px solid white;
+            box-shadow: 0 0 5px white;
+        }
+
+        .hero {
+            width: 250px;
+        }
+        .project {
+            width: 250px;
+        }
+        .team {
+            width: 250px;
+        }
+        .testimonial {
+            width: 100%;
+        }
+        .contact {
+            width: 250px;
+        }
+        .header {
+            width: 250px;
+            height: 75px;
+        }
+        .footer {
+            width: 100%;
+            height: 200px;
+        }
+        .button {
+            width: 90px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .mainclass {
+        margin-top: 200px;
+        /* height: 6900px; */
+        width: 85%;
+        margin: 27% auto;
+        background-color: white;
+        border-radius: 15px;
+        border: 1px solid white;
+        box-shadow: 0 0 5px white;
+    }
+
+    .hero {
+        width: 200px;
+    }
+    .project {
+        width: 200px;
+    }
+    .team {
+        width: 200px;
+    }
+    .testimonial {
+        width: 100%;
+    }
+    .contact {
+        width: 200px;
+    }
+    .header {
+        width: 200px;
+        height: 75px;
+    }
+    .footer {
+        width: 100%;
+        height: 200px;
+    }
+    .button {
+        width: 90px;
+    }
+}
+
+@media (max-width: 305px) {
+    .mainclass {
+        margin-top: 200px;
+        /* height: 5400px; */
+        width: 85%;
+        margin: 29% auto;
+        background-color: white;
+        border-radius: 15px;
+        border: 1px solid white;
+        box-shadow: 0 0 5px white;
+    }
+}
