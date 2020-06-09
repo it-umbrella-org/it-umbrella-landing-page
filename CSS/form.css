@@ -17,8 +17,10 @@ html {
     border-radius: 4px;
     transition: all 0.5s;
     text-align: center;
+    margin-left: 500px;
+    margin-top: 35px;
 
-    width: 10rem;
+    width: 15rem;
 }
 
 #go-back-button:hover {
