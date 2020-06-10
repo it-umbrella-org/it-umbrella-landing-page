@@ -20,6 +20,9 @@ body {
     font-family: var(--text-font);
     color: white;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 
 .section-heading {
     text-align: center;
