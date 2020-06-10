@@ -1,11 +1,8 @@
 body {
     background-color: rgb(151, 96, 198);
 }
-body::-webkit-scrollbar {
-    display: none;
-}
 html {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #go-back-button {
