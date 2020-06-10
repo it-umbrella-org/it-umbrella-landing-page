@@ -1,11 +1,14 @@
 var lightOptions = document.querySelector("#light-options");
 var darkOptions = document.querySelector("#dark-options");
+var neumoOptions = document.querySelector("#neumo-options");
 
 var lightInputFields = document.querySelectorAll(".required-light");
 var darkInputFields = document.querySelectorAll(".required-dark");
+var neumoInputFields = document.querySelectorAll(".required-neumo");
 
 var lightInputFieldsArray = Array.from(lightInputFields);
 var darkInputFieldsArray = Array.from(darkInputFields);
+var neomoInputFieldsArray = Array.from(neumoInputFields);
 
 function turnRequiredFalse(arr) {
     arr.forEach((element) => {
@@ -24,6 +27,7 @@ function toggleLight() {
 
     turnRequiredTrue(lightInputFieldsArray);
     turnRequiredFalse(darkInputFieldsArray);
+    turnRequiredFalse(neomoInputFieldsArray);
 }
 
 function toggleDark() {
@@ -32,4 +36,15 @@ function toggleDark() {
 
     turnRequiredTrue(darkInputFieldsArray);
     turnRequiredFalse(lightInputFieldsArray);
+    turnRequiredFalse(neomoInputFieldsArray);
+}
+
+function toggleNeumo() {
+    neumoOptions.classList.remove("hide");
+    lightOptions.classList.add("hide");
+    darkOptions.classList.add("hide");
+
+    turnRequiredTrue(neomoInputFieldsArray);
+    turnRequiredFalse(lightInputFieldsArray);
+    turnRequiredFalse(darkInputFieldsArray);
 }
