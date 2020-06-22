@@ -24,6 +24,8 @@ function turnRequiredTrue(arr) {
 function toggleLight() {
     lightOptions.classList.remove("hide");
     darkOptions.classList.add("hide");
+    neumoOptions.classList.add("hide");
+
 
     turnRequiredTrue(lightInputFieldsArray);
     turnRequiredFalse(darkInputFieldsArray);
@@ -33,6 +35,8 @@ function toggleLight() {
 function toggleDark() {
     darkOptions.classList.remove("hide");
     lightOptions.classList.add("hide");
+    neumoOptions.classList.add("hide");
+
 
     turnRequiredTrue(darkInputFieldsArray);
     turnRequiredFalse(lightInputFieldsArray);
